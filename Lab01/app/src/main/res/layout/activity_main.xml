@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textViewNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonRandom"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="196dp"
+        android:layout_marginBottom="59dp"
+        android:text="0"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/buttonRandom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="213dp"
+        android:text="RANDOM" />
+
+    <EditText
+        android:hint="Nhập số nhỏ nhất"
+        android:id="@+id/txtnumber1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtnumber2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="85dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:hint="Nhập số lớn nhất"
+        android:id="@+id/txtnumber2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewNumber"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="85dp"
+        android:ems="10"
+        android:inputType="number" />
+</RelativeLayout>

@@ -45,11 +45,12 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             switchActivity2.putExtra("name", userName);
             switchActivity2.putExtra("activity", "From First Activity");
             startActivity(switchActivity2);
-//        }else if(position == 2){ // position 2 in the array = activity 3
-//            Intent switchActivity3 = new Intent(MainActivity.this, MainActivity3.class);
-//            switchActivity3.putExtra("name", userName);
-//            switchActivity3.putExtra("activity", "From First Activity");
-//            startActivity(switchActivity3); //start to switch
+        }
+        else if(position == 2){ // position 2 in the array = activity 3
+           Intent switchActivity3 = new Intent(MainActivity.this, MainActivity3.class);
+           switchActivity3.putExtra("name", userName);
+           switchActivity3.putExtra("activity", "From First Activity");
+           startActivity(switchActivity3); //start to switch
         }
     }
 

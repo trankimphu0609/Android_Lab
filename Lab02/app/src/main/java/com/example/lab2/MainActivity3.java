@@ -55,7 +55,8 @@ public class MainActivity3 extends AppCompatActivity implements AdapterView.OnIt
             switchActivity1.putExtra("name", userName);
             switchActivity1.putExtra("activity", "From Third Activity");
             startActivity(switchActivity1);
-        }else if(position == 1){ // 1 = activity 2
+        }
+        else if(position == 1){ // 1 = activity 2
             Intent switchActivity3 = new Intent(MainActivity3.this, MainActivity2.class);
             switchActivity3.putExtra("name", userName);
             switchActivity3.putExtra("activity", "From Third Activity");

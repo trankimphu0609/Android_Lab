@@ -45,6 +45,7 @@ public class MainActivity3 extends AppCompatActivity implements AdapterView.OnIt
      * @param position
      * @param id
      */
+
     @Override
     public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
         String[] activitiesArray = getResources().getStringArray(R.array.activities);
@@ -62,7 +63,6 @@ public class MainActivity3 extends AppCompatActivity implements AdapterView.OnIt
             switchActivity3.putExtra("activity", "From Third Activity");
             startActivity(switchActivity3);
         }
-
     }
 
     @Override

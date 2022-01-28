@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
      * @param position
      * @param id
      */
+
     @Override
     public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
 
@@ -62,6 +63,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     // reached after onCreate() or onRestart()
     // called when the activity is about to become visible
+
     @Override
     protected void onStart() {
         super.onStart();
@@ -71,18 +73,22 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         spinner.setOnItemSelectedListener(this);
         Log.d("LIFECYCLE_A1","onStart()");
     }
+
     // reached after onPause() or onStart()
     // called when the activity has become visible
+
     @Override
     protected void onResume() {
         super.onResume();
         Log.d("LIFECYCLE_A1","onResume()");
     }
+
     /**
      * ----------------------------------------------
      *  Activity is running after call to onResume()
      * ----------------------------------------------
      */
+
     // another activity comes into the foreground
     @Override
     protected void onPause(){

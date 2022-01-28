@@ -8,8 +8,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/buttonRandom"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="196dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="130dp"
         android:layout_marginBottom="59dp"
         android:text="0"
         android:textSize="34sp" />
@@ -18,33 +20,39 @@
         android:id="@+id/buttonRandom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="161dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="150dp"
         android:layout_marginBottom="213dp"
         android:text="RANDOM" />
 
     <EditText
-        android:hint="Nhập số nhỏ nhất"
         android:id="@+id/txtnumber1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/txtnumber2"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
+        android:layout_marginStart="102dp"
         android:layout_marginEnd="100dp"
         android:layout_marginBottom="85dp"
         android:ems="10"
+        android:hint="Nhập số nhỏ nhất"
         android:inputType="number" />
 
     <EditText
-        android:hint="Nhập số lớn nhất"
         android:id="@+id/txtnumber2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/textViewNumber"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
+        android:layout_marginStart="102dp"
         android:layout_marginEnd="100dp"
         android:layout_marginBottom="85dp"
         android:ems="10"
+        android:hint="Nhập số lớn nhất"
         android:inputType="number" />
 </RelativeLayout>

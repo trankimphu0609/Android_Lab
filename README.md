@@ -1,2 +1,2 @@
 # Android_Lab
-Review Android Java knowledge
+- Lab 01: Create an application that will display a pseudo-random number from 1 to a maximum set by the user.

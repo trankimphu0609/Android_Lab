@@ -3,3 +3,5 @@
 - Lab 02: Create an application with multiple Activities. Use a Spinner widget to select a choice.
 - Lab 03: Create an application with Fragments which preserves state when restarted.
 - Lab 04:
+- Lab 05:
+- Lab 06:
